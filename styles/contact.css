@@ -1,0 +1,42 @@
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 2rem;
+  gap: 1rem;
+  padding: 3rem;
+  border: #e4e4e4 1px solid;
+  border-radius: 4px;
+}
+
+.contact-item-grid div {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.contact-item-grid div img {
+  width: 2rem;
+  height: 2rem;
+  max-width: 100%;
+}
+
+.contact-item-name {
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: "Spectral", serif;
+}
+.contact-jobtitle {
+  color: #858482;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  @media only screen and (max-width: 706px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}

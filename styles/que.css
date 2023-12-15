@@ -1,0 +1,115 @@
+.text-que {
+  padding-top: 0rem !important;
+}
+.text-que p:first-child {
+  @media only screen and (max-width: 608px) {
+    font-size: 2.5rem;
+    margin-bottom: 0rem !important;
+  }
+}
+
+.text-que .heading {
+  @media only screen and (max-width: 782px) {
+    font-size: 3rem !important;
+  }
+  @media only screen and (max-width: 498px) {
+    font-size: 2rem !important;
+  }
+}
+
+.que-content-section3 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3rem;
+}
+
+.que-content-section3 img {
+  width: 10rem;
+  max-width: 100%;
+  align-self: center;
+}
+
+.que-content-section3 li {
+  margin-left: 1rem;
+}
+
+.forms {
+  background-color: #0c3e53;
+  color: white;
+}
+
+.form-items {
+  overflow-y: scroll;
+  height: 27rem;
+  max-height: 100%;
+  padding-right: 2rem;
+}
+
+.form-items::-webkit-scrollbar {
+  background-color: #808080;
+  width: 5px;
+}
+.form-items::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Spectral", serif;
+  border-bottom: 1px #d9d9d9 solid;
+  padding: 1rem;
+}
+
+.form-item p {
+  font-size: 1.8rem;
+}
+.form-item a img {
+  width: 2.5rem;
+  max-width: 100%;
+}
+
+.profiles {
+  background-image: url(/assets/Vector2styling.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-que {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #0c3e53;
+  position: relative;
+}
+.contact-que .bgstyling {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.contact-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10rem;
+  row-gap: 5rem;
+
+  @media only screen and (max-width: 446px) {
+    column-gap: 5rem;
+  }
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-item img {
+  width: 2.5rem;
+  max-width: 100%;
+}

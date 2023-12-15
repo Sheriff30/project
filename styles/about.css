@@ -1,0 +1,119 @@
+.scroll-item-content {
+  color: #0e0e0e;
+  font-size: 2.2rem;
+  font-family: "Spectral", serif;
+}
+
+.content-about {
+  padding: 2rem 5rem;
+  position: absolute;
+  color: white;
+  bottom: 6rem;
+  left: 0;
+  z-index: 1111;
+
+  @media only screen and (max-width: 734px) {
+    bottom: 3rem;
+    padding: 0 2.5rem;
+  }
+}
+.content-about p:first-child {
+  font-size: 7rem;
+  font-family: "Spectral", serif;
+  margin-bottom: 2rem;
+  @media only screen and (max-width: 783px) {
+    font-size: 5rem;
+  }
+}
+.content-about p:nth-child(2) {
+  font-size: 2rem;
+  @media only screen and (max-width: 730px) {
+    font-size: 1.8rem;
+  }
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.about-item {
+  /* width: 80%; */
+  margin: 0 auto;
+}
+
+.about-item img {
+  width: 30rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.about-section-heading {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Spectral", serif;
+  color: white;
+
+  @media only screen and (max-width: 682px) {
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+  }
+}
+
+.about-section2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  @media only screen and (max-width: 682px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.about-section2-content {
+  @media only screen and (max-width: 682px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.about-section2-content img {
+  max-width: 100%;
+  width: 10rem;
+  display: block;
+  height: 10rem;
+}
+
+.about-section2-content p:nth-child(2) {
+  font-family: "Spectral", serif;
+  font-size: 5rem;
+  font-weight: 600;
+}
+.about-section2-content p:nth-child(3) {
+  font-size: 2rem;
+}
+
+.about-section5-content {
+  display: grid !important;
+  grid-template-columns: auto !important;
+}
+
+.about-section5 {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  @media only screen and (max-width: 658px) {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+.text-item-about {
+  display: flex !important;
+  align-items: center;
+  width: 100%;
+  flex-direction: row !important;
+}

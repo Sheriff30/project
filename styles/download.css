@@ -1,0 +1,64 @@
+.download-form {
+  font-size: 1.8rem;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.download-form img {
+  height: 2rem;
+  width: 2rem;
+  max-width: 100%;
+  object-fit: cover;
+}
+.download-form .form1-btns button {
+  background-color: #0c3e53;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+}
+.download-form .form1-btns button a {
+  color: white;
+  text-decoration: none;
+}
+
+.form2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  @media only screen and (max-width: 884px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.download-title-top {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.download-title-mid {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.downloads-2-lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  @media only screen and (max-width: 884px) {
+    grid-template-columns: 1fr;
+  }
+}

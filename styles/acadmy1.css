@@ -1,0 +1,134 @@
+/* header */
+.academy1-section1 .header {
+  background-color: black !important;
+  position: relative !important;
+}
+
+.academy1-section1 .headerMobile {
+  background-color: black !important;
+  @media only screen and (max-width: 742px) {
+    position: relative;
+  }
+}
+
+/* section2 */
+
+.academy1-section2 {
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.academy1-section2 p:nth-child(2) {
+  color: #858482;
+  width: 70%;
+  font-size: 2rem;
+
+  @media only screen and (max-width: 606px) {
+    font-size: 1rem;
+  }
+}
+
+/* section 4 */
+.acadmy1-section4 {
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.acadmy1-section4-heading,
+.acadmy1-section5-heading,
+.academy1-section2 p:first-child {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "Spectral", serif;
+  margin-bottom: 2rem;
+
+  @media only screen and (max-width: 606px) {
+    font-size: 3rem;
+  }
+  @media only screen and (max-width: 409px) {
+    font-size: 2rem;
+  }
+}
+
+.acadmy-section4-item {
+  background-color: white;
+  margin-bottom: 3rem;
+  padding: 2rem 2rem;
+  border: 1px solid #e4e4e4;
+  font-size: 2.5rem;
+}
+
+/* Section5 */
+
+.filter {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.filter-input {
+  display: flex;
+  margin-bottom: 5rem;
+  position: relative;
+  width: 25%;
+}
+.filter-input select {
+  width: 50rem;
+  border: none;
+  outline: none;
+  height: 4.5rem;
+  z-index: 1111111;
+  background-color: transparent;
+  border: 1px solid black;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.filter-input select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.filter-input button {
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  background-color: #0c3e53;
+  position: absolute;
+  top: 0;
+  right: 0rem;
+  height: 100%;
+}
+.filter-input button svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.programmes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media only screen and (max-width: 1486px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media only screen and (max-width: 912px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media only screen and (max-width: 409px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  gap: 3rem;
+}
+
+.programme img {
+  width: 50rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.programme p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Spectral", serif;
+}
+.programme span {
+  color: #858482;
+}

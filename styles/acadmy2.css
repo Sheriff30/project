@@ -1,0 +1,84 @@
+.section-2-overciew-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+
+.heading-btns {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+  display: block;
+  padding: 2rem 3rem;
+  background-color: transparent;
+  border: 1px solid #e4e4e4;
+  cursor: pointer;
+
+  @media only screen and (max-width: 623px) {
+    font-size: 110%;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 100%;
+  }
+}
+
+.btn a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Spectral", serif;
+}
+
+.overview-content1 {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin-bottom: 5rem;
+
+  @media only screen and (max-width: 632px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.overview-content1 img {
+  margin-left: auto;
+  max-width: 100%;
+}
+
+.text-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #858482;
+  line-height: 2.5rem;
+}
+
+.overview-content2 p:not(:first-child) {
+  margin-bottom: 2rem;
+  color: #858482;
+  line-height: 2.5rem;
+}
+
+.acadmy2-name {
+  background-image: url(/assets/acadmy2img.png);
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: END;
+  padding: 5rem 5rem;
+  color: white;
+}
+.acadmy2-name div {
+  display: flex;
+  flex-direction: column;
+}
